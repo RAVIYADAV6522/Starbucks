@@ -1,0 +1,93 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  color: whitesmoke;
+  gap: 2%;
+}
+
+.top {
+  display: flex;
+  gap: 5%;
+  justify-content: space-around;
+  height: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.aboutus {
+  width: 15%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+}
+.logo img {
+  height: 13%;
+  width: 60%;
+}
+.responsibility {
+  width: 15%;
+}
+.quicklinks {
+  width: 15%;
+}
+.media {
+  width: 40%;
+  display: flex;
+}
+.socialmedia {
+  width: 50%;
+}
+.download {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  width: 50%;
+}
+.apple {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.apple img {
+  width: 30%;
+  height: 60%;
+}
+.playstore {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.playstore img {
+  width: 30%;
+  height: 60%;
+}
+.media-images {
+  display: flex;
+  gap: 2px;
+  width: 100%;
+}
+.media-images img {
+  width: 50%;
+}
+
+.bottom {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.b-left {
+  display: flex;
+  width: 50%;
+  gap: 20px;
+  padding-left: 10%;
+}
+.b-right {
+  width: 40%;
+}

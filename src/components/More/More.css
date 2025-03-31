@@ -1,0 +1,64 @@
+.more-parent {
+  width: 100vw;
+  height: 70vh;
+  background-color: gainsboro;
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  position: sticky;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.more-left {
+  width: 80%;
+  height: 90%;
+}
+
+.more-left .bgimg {
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+
+.bgimg img {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+}
+
+.imgdata {
+  width: 60%;
+  height: 45%;
+  /* background-color: red; */
+  position: absolute;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-left: 20px;
+}
+.lm {
+  background-color: whitesmoke;
+  width: 15%;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 5px 5px;
+}
+
+.coffeebox {
+  color: green;
+  background-color: lightblue;
+  width: 15%;
+  border: 2px solid lightblue;
+  border-radius: 15px;
+  padding: 5px 5px;
+}
+
+.more-right {
+  color: green;
+  /* background-color: red; */
+  height: 10%;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+.knowmore {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.parent {
+  width: 100vw;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+button {
+  width: 20%;
+  height: 50px;
+  background-color: green;
+  border-radius: 25px;
+  color: white;
+  border: 2px solid white;
+}

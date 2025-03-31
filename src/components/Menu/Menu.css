@@ -1,0 +1,47 @@
+.barista-parent {
+  width: 100vw;
+  height: 50vh;
+  background-color: gainsboro;
+  display: flex;
+  padding-left: 50px;
+}
+.Menu {
+  padding-top: 30px;
+  padding-left: 47%;
+}
+
+.barista-card {
+  width: 40%;
+  height: 90%;
+}
+
+.card {
+  width: 80%;
+  background-color: white;
+  height: 70%;
+  border: 0.1px solid black;
+  border-radius: 10px;
+}
+
+.card-top {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  gap: 20px;
+  padding: 10px 10px;
+}
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-bottom div {
+  background-color: greenyellow;
+  padding: 7px 7px;
+  border-radius: 15px;
+}
+.card-top img {
+  width: 40%;
+  height: 90%;
+  border-radius: 10px;
+}
